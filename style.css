@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: url("https://images.unsplash.com/photo-1712651429891-a73046beecfd?q=80&w=1827&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255,255,244,.2);
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+h1{
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+}
+
+.Input-container{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.Input-container input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,244,.2);
+    border-radius: 10px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.Input-container input::placeholder{
+    color: #fff;
+}
+
+.Input-container img{
+    position: absolute;
+    right: 24px;
+    top: 10%;
+    margin-top: 5px;
+}
+
+.Input-container a{
+    font-size: 16px;
+    margin-top: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.Input-container a:hover{
+    text-decoration: underline;
+}
+
+.Submit-button{
+    width: 100%;
+    height: 50px;
+    background-color: #1c1f41;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 15px;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+}
+
+.Submit-button:hover{
+    background-color: #232858;
+}
+
+.register{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.register p{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;   
+}
+
+.register p a{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.register p a:hover{
+    text-decoration: underline;
+}
